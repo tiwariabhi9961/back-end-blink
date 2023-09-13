@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 var whitelist = [
-  "https://frontend-item-delivery.vercel.app",
+  "https://blinkitstore.online",
   "http://localhost:5173",
 ];
 var corsOptions = {
